@@ -1,0 +1,263 @@
+html {
+    font-family: "barlow";
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 20px;
+    margin: 0;
+    background-color: #ecf0f1
+    ;
+   
+
+    ;
+}
+ .principal{
+    color: #f0f0f5;
+    padding: 0.7rem;
+    border: 1px solid #1e1e1e    ;
+    background-color: 	#1e1e2f;
+ }
+
+ .principal p {
+    color:#00b4d8
+    ;
+ }
+  
+#titulo {
+    width: fit-content;
+    border: 1px solid #17202a;
+    background-color: #17202a;
+    font-size: 3rem;
+    color: #f0f0f5
+
+} 
+
+.inicio {
+    border: 1px dotted #696969 ;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #e5e8e8;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inicio span {
+color: rgb(18, 190, 18);
+
+}
+
+.navegacion {
+    margin:  auto;
+    border: 1px solid #34495e;
+    background-color: #34495e
+
+
+
+    ;
+}
+
+.navegacion ul {
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #2ae4e4;
+ 
+}
+
+.navegacion a:hover {
+    color: cornflowerblue;
+}
+
+
+.navegacion a:active {
+    color: #962fbf;
+}
+
+.navegacion li {  
+    margin: 0 auto;
+}
+
+.cmarcas {
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 1px dotted #696969;
+    display: flex;
+    gap: 2rem;
+    background-color: #e5e8e8;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#Marcas {
+    margin-left: 2.3rem;
+}
+
+.imagen1 {
+    border-radius: 2rem;
+    display: block;
+    justify-content: flex-end;
+    max-width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+.imagen1:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: 300ms;
+}
+
+.List-1 {
+    font-size: 16px;
+    border-radius: 0.4rem;
+    margin: auto;
+    padding: 10px;
+    list-style: none;
+    border: 1px dotted #696969;
+}
+
+.cont {
+    margin-top: 3rem;
+    display: block;
+}
+
+.para{
+    margin-bottom: 20px;
+}
+
+.crecomendaciones  {
+    margin: 2rem;
+    border:1px dotted #696969;
+    position: relative;
+    background-color: #e5e8e8;
+    padding: 2rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+.crecomendaciones a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(241, 11, 11);
+}
+
+span{
+    font-weight: bold;
+}
+
+.cmantenimiento {
+    border: 1px dotted #696969;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #e5e8e8;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.cmantenimiento ul li{
+   margin: 10px;
+   padding: 10px;
+   border: 1px dotted #696969;
+   border-radius: 1rem;
+   
+    
+}
+
+.cmantenimiento ul li:hover {
+    background-color: rgb(194, 194, 194);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    transition: 300ms;
+    
+    
+}
+
+
+
+.cdrivers {
+    border: 1px dotted #696969;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: #e5e8e8;
+
+
+}
+
+.cdrivers a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    font-size: 23px;
+
+}
+
+.cdrivers a:hover {
+    text-shadow: 1px 1px 1px #696969;
+    transition: 300ms;
+
+}
+
+footer {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #111820;
+    color: beige;
+}
+
+footer a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: #e5e8e8;
+
+}
+
+
+.ig {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 1rem;
+    color: black;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+
+}
+
+.fc {
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #1877F2;
+    padding: 1rem;
+}
+
+.c-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+button {
+    color: #17202a;
+    background-color: #4f5bd5;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: cursive;
+}
+
+form {
+    display: inline-flex;
+    gap: 1rem;
+}
+

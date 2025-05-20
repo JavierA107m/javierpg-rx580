@@ -1,0 +1,155 @@
+html {
+    font-size: 20px;
+    font-family: "barlow";
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color:#212f3d ;
+    color: #ecf0f1 ;
+}
+
+#title {
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #34495e;
+
+
+}
+
+
+.pparrafo {
+border-radius: 1rem;
+margin: 2rem;
+padding: 2rem;
+border: 1px solid #8da6ac;
+background-color: #596e81;
+box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+
+table {
+    border-radius: 1rem;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+.tabla {
+    table-layout: auto;
+    
+}
+
+th {
+    background-color:#419be6 ;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    background-color: #88a6d3;
+    color: black;
+}
+
+
+
+
+.prueba {
+    border-radius: 1rem;
+    border: 1px solid #8da6ac;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #596e81;
+    display: flex;
+    gap: 1rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+
+
+th,td {
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+.ppp{
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #8da6ac;
+    background-color: #596e81;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+
+.Encerrado-1 {
+    border: 1px solid #8da6ac;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #596e81;
+
+}
+
+.table-2 {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.pp {
+    width: 100%;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #111820;
+    color: beige;
+}
+
+footer a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: #e5e8e8;
+
+}
+
+
+.ig {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 1rem;
+    color: black;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+
+}
+
+.fc {
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #1877F2;
+    padding: 1rem;
+}
+
+.c-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+button {
+    color: #17202a;
+    background-color: #4f5bd5;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: cursive;
+}
+
+form {
+    display: inline-flex;
+    gap: 1rem;
+}
+
+
